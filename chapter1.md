@@ -553,7 +553,7 @@ report.final <- rbind(sell.time, revenue.day, average.byday)
 ```yaml
 type: NormalExercise
 key: 86cd3cbb2e
-xp: 100
+xp: 50
 ```
 
 `@instructions`
@@ -583,4 +583,44 @@ success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!
 
 #ex() %>% check_object("report.weeksales") %>% check_equal("rbind(sell.time, revenue.day)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
 #success_msg("Ja, genau!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: adca095065
+xp: 50
+```
+
+`@instructions`
+Sie haben den Report Herrn Müller übergeben. Er lässt Ihnen die Nachricht zukommen, ob Ihnen aufgefallen sei, dass sich ein Zahlenfehler eingeschlichen hat. Sie müssen das nächste Mal genauer die Werte kontrollieren, bevor Sie den Report an das Management übergeben.
+
+- 2. Lassen Sie sich den erstellten Report (**report.weeksales**) einmal in der Console ausgeben und korrigieren Sie ihn anschließend bitte.
+
+`@hint`
+Haben Sie den falschen Wert entdeckt, ein Tag hat nur 24h! - Alles darüber ist natürlich falsch - statt 88h muss hie reine 8 stehen. report.weeksales[Zeile, Spalte] <- Wert
+
+`@sample_code`
+```{r}
+# report.weeksales
+report.weeksales <- rbind(sell.time, revenue.day)
+# Ausgabe (Click 'Run Code')
+print(report.weeksales)
+# 2.Änderung vornehmen
+
+```
+
+`@solution`
+```{r}
+# Ausgabe
+print(report.weeksales)
+# Änderung vornehmen
+report.weeksales[1,2] <- 8
+```
+
+`@sct`
+```{r}
+ex() %>% check_code(c("report.weeksales[1,2] <- 8","8 -> report.weeksales[1,2]"), fixed=TRUE, missing_msg="Der Code für die Änderung des Wertes ist nicht korrekt! Haben Sie die richtige Indizierung zur Korrektur des Wertes ausgewählt?") 
+success_msg("Ja, genau - sonst wären falsche Umsatzzahlen an die Verkaufsniederlassung weitergegeben worden!")
 ```
