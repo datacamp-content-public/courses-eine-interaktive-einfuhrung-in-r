@@ -1,6 +1,7 @@
 ---
 title: 'Wie R funktioniert'
 description: 'Mit kleinen Schritten zu den Basics in R'
+free_preview: true
 ---
 
 ## Hallo und herzlich Willkommen!
