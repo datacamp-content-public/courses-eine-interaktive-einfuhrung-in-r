@@ -382,9 +382,26 @@ key: 7c2138919d
 xp: 100
 ```
 
+Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Daten besteht" wird ein Vektor im R-Handbuch definiert. Wir behandeln in dieser Einheit zum Einstieg nur numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können.
 
+Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen, gehen Sie wie folgt vor:
+
+```
+c(1,2,3) oder kürzer c(1:3)
+
+
+Wichtige Befehle:
+
+str(): Typ eines Vektors bestimmen u. Überblick verschaffen.
+
+mean(): Durchschnitt ausrechnen.
+
+max(): Ausgabe maximaler Wert.
+```
 
 `@pre_exercise_code`
 ```{r}
-
+service.time <- c(8,8,8,8,9,6)
+revenue.day <- c(21600, 28000, 33600, 37600, 45990, 19800)
+revenue.tenfridays <- c(38300, 40800, 43300, 44100, 44900, 46500, 47900, 48400, 49800, 55900)
 ```
