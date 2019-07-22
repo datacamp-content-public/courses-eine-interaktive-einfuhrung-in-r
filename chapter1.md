@@ -411,7 +411,7 @@ revenue.tenfridays <- c(38300, 40800, 43300, 44100, 44900, 46500, 47900, 48400, 
 ```yaml
 type: NormalExercise
 key: fcef4dd6dc
-xp: 50
+xp: 35
 ```
 
 `@instructions`
@@ -447,7 +447,7 @@ success_msg("Ja, genau!")
 ```yaml
 type: NormalExercise
 key: 5ca45fa697
-xp: 50
+xp: 35
 ```
 
 `@instructions`
@@ -472,4 +472,38 @@ str(service.time)
 ```{r}
 ex() %>% check_code(c("str(service.time)", "service.time", "max(service.time)"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über einen Vektor und die darin enthaltenen Servicezeiten.")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 2510875d83
+xp: 30
+```
+
+`@instructions`
+Am Freitag bietet das Kundencentercenter seit zehn Wochen 9h anstatt 8h ihre Leistungen an, um den Kundennachfragen gerecht zu werden. Sie haben die Umsatzdaten der zehn (neunstündigen) Freitage aus dem ERP-System aufbereitet und in die Variable **revenue.tenfridays** abgelegt. 
+Im ERP-System finden Sie den Branchenbenchmark, der aussagt, dass ein Kundencenter ihrer Größe **5000€ durchschnittlichen Umsatz pro Stunde** erwirtschaften muss, um als profitabel angesehen zu werden. 
+
+- 3. Welchen durchschnittlichen **stündlichen** Freitagsumsatz erwirtschaftet das Center **seit der Umstellung**? Lassen Sie sich bitte mit einer Codezeile den konkreten Wert ausgeben, da dieser direkt an das Management des Kundencenters übermittelt wird.
+
+`@hint`
+Denken Sie nicht kompliziert - es wird der Durchschnitt des Vektors benötigt und dann müssen Sie noch eine einfache Division durch 9h durchführen, um auf den stündlichen Umsatz zu kommen - tun Sie dies bitte alles in einem Codekommando.
+
+`@sample_code`
+```{r}
+# Durchschnittlicher stündlicher Freitagsumsatz
+
+```
+
+`@solution`
+```{r}
+mean(revenue.tenfridays)/9
+```
+
+`@sct`
+```{r}
+ex() %>% check_output(5110, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie sich verrechnet oder einen Fehler im Code! Haben Sie den stündlichen Freitagsumsatz berechnen wollen oder den durchschnittlichen Umsatz der neunstündigen Freitage? Beachten Sie zusätzlich, dass Die Umsatzdaten in einem Vektor abgelegt sind.")
+success_msg("Richtig. Am neunstündigen Freitag wurden 5110€ Umsatz pro Stunde erwirtschaftet. Dies ist als gerade so profitabel anzusehen! Ein dickes Lob an Sie, Sie lernen schnell - nur noch 2 kurze Einheiten (4/6 abgeschlossen)")
 ```
