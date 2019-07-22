@@ -785,3 +785,37 @@ Schauen Sie sich die summary() des Serviceumsatzes an und beachten Sie bitte mö
 - Ja, die gewählte Aussage stimmt nicht. Der Mean ist durch Fehlerwerte verfälscht. **(6/6 abgeschlossen)**
 - Nein, diese Aussage ist richtig. Der Maximalwert kommt sehr unrealistisch vor, wenn man ihn mit dem Median vergleicht und auch die Quartile als Maßstab heranzieht. Es wird sich um einen Fehler in den Daten handeln. 
 - Nein, diese Aussage ist richtig. Es kommen NA Werte, die die Anzahl an fehlenden Werten repräsentiert im Datensatz vor.
+
+---
+
+## Feierabend - Glückwunsch!
+
+```yaml
+type: PureMultipleChoiceExercise
+key: 4e40ef561c
+xp: 50
+```
+
+Ihr verdienter Badge (Abzeichen) zum erfolgreich absolvierten Kurzeinstieg in R :)
+	![Badge](https://assets.datacamp.com/production/repositories/5035/datasets/0de9978260d4921d74a741154600f68a99399038/Badge_Link4.jpg)
+
+Herzlichen Dank für Ihre Teilnahme! 
+
+Ich hoffe, Sie hatten ein gutes Lernerlebnis und Sie konnten etwas für sich mitnehmen. Bitte nehmen Sie an der **folgenden Umfrage teil (!!!)**, die Hauptbestandteil meiner Masterarbeit ist und **nur** auf diese Daten habe ich Zugriff und auch nur diese fließen in die Auswertung ein. 
+
+**https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de**
+
+`@hint`
+- Nehmen Sie nun bitte an der Umfrage teil - die Hauptbestandteil meiner Masterarbeit ist: ```
+**https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de**
+```****
+
+`@possible_answers`
+- 1
+- 2
+- [3]
+
+`@feedback`
+- https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de
+- https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de
+- https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de
