@@ -232,7 +232,7 @@ z > (x+y)
 ```{r}
 ex() %>% check_object("x") %>% check_equal(8480000)
 ex() %>% check_object("y") %>% check_equal(9052083)
-ex() %>% check_output("FALSE", fixed=TRUE, missing_msg= "Da haben Sie etwas falsch verglichen bei Aufgabe 2 oder die Aussage von Herrn Müller nicht konkret überprüft!")
+ex() %>% check_output(c("z>x+y","x+y<z"), fixed=TRUE, missing_msg= "Da haben Sie etwas falsch verglichen bei Aufgabe 2 oder die Aussage von Herrn Müller nicht konkret überprüft!")
 success_msg("Ja, genau. Es sieht so aus als hätten Sie die Variablenzuweisung verstanden und Herr Müller lag mit seiner Prognose falsch. Kommen wir zum nächsten Inhaltsblock, den Datentypen (2/6 abgeschlossen)")
 ```
 
