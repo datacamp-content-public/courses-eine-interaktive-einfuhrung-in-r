@@ -734,19 +734,21 @@ Herr Müller möchte nun weitere Analysen bzgl. der Daten des Kundencenters anal
 - 2. Verschaffen Sie sich bitte mithilfe _einer_ Funktion einen **Überblick über den Serviceumsatz:**
 
 `@hint`
-
+Schauen Sie in die Exercisebox - die Befehle, die **zusammenfassende** Funktionen anwenden, sind sehr hilfreich.
 
 `@sample_code`
 ```{r}
+# Überblick Neukundendaten
 
 ```
 
 `@solution`
 ```{r}
-
+summary(Neukundendaten)
 ```
 
 `@sct`
 ```{r}
-
+ex() %>% check_code(c("str(Neukundendaten)", "summary(Neukundendaten)", "head(Neukundendaten)", "tail(Neukundendaten)"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+success_msg("Ja, genau. Die Funktion str() und summary() sind sehr hilfreich und verschaffen Ihnen einen kompakten Überblick über den Datensatz. Sie haben Ihren Arbeitstag so gut wie geschafft und alle Aufgaben mit höchster Genauigkeit und hohem Engagement absolviert (5.5/6)")
 ```
