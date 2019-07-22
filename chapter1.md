@@ -405,3 +405,39 @@ service.time <- c(8,8,8,8,9,6)
 revenue.day <- c(21600, 28000, 33600, 37600, 45990, 19800)
 revenue.tenfridays <- c(38300, 40800, 43300, 44100, 44900, 46500, 47900, 48400, 49800, 55900)
 ```
+
+***
+
+```yaml
+type: NormalExercise
+key: fcef4dd6dc
+xp: 100
+```
+
+`@instructions`
+Nachdem Sie nun die Personaldaten analysiert und die Fehler darin behoben haben, sollen Sie sich nun dem neu administrierten Kundencenter widmen.
+
+Da sich verschiedene Kunden über die Öffnungszeiten und die lange Wartezeit beschwert haben, suchen Sie bitte den längsten Servicetag heraus. Der nun längste Servicetag wurde erst kürzlich um eine Stunde Servicezeit verlängert und deswegen ist die Auslastungsrate zurzeit noch gering. 
+
+- 1. Erstellen Sie dazu zuerst einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Servicestag (1 = "Montag").
+
+`@hint`
+Schauen Sie bitte in die Exercisebox. Dort sind konkrete Beispiele gegeben, die Ihnen weiterhelfen!
+
+`@sample_code`
+```{r}
+# Servicetage
+
+```
+
+`@solution`
+```{r}
+
+open.vec <- c(1:6)
+```
+
+`@sct`
+```{r}
+ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5,6)", "c(1:6)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+success_msg("Ja, genau!")
+```
