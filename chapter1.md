@@ -26,6 +26,7 @@ Ihr Chef Herr Müller ist mit der Akquisition sehr beschäftigt und hat für Sie
 - Wir fangen mit einem kleinen Testprogramm an, sodass Sie mit der Console vertraut werden:
 	- Dafür schreiben Sie bitte: **print("Start!")** in das Skript und drücken bitte auf 'Submit Answer'.
     
+<hr />
 
 Allgemeine Info:
 
