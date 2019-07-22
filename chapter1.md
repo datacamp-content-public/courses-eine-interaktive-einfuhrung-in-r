@@ -803,7 +803,7 @@ Ihr verdienter Badge (Abzeichen) zum erfolgreich absolvierten Kurzeinstieg in R:
 > Umfragelink: **https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de** 
 (einfach markieren & Link öffnen - teilnehmen - gewinnen!)
 
-![Badge](https://assets.datacamp.com/production/repositories/5035/datasets/0de9978260d4921d74a741154600f68a99399038/Badge_Link4.jpg)
+![Badge](https://assets.datacamp.com/production/repositories/5240/datasets/01930081ade87b2f83a9e61dc67dcb38d9c310b2/Badge_Link5.JPG)
 
 Herzlichen Dank für Ihre Teilnahme! 
 
