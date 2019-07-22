@@ -260,7 +260,7 @@ Anzahl_Mitarbeiter <- "Fabian Jung"
 ```yaml
 type: NormalExercise
 key: 9b9235a1da
-xp: 100
+xp: 50
 ```
 
 `@instructions`
@@ -286,4 +286,46 @@ is.numeric(Anzahl_Mitarbeiter)
 ```{r}
 ex() %>% check_output(c(FALSE, "character"), fixed=TRUE, missing_msg= "Da stimmt etwas nicht. Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird! Beachten Sie weiterhin die case sensitivität von R")
 success_msg("Super, es ist keine numerische Variable hinterlegt, da muss bei der Datenintegration der Tochtergesellschaft etwas falsch zugewiesen worden sein!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 35d2c7f521
+xp: 50
+```
+
+`@instructions`
+Da ist wohl bei der Datenintegration im System etwas mit der Zuordnung schief gelaufen.
+- 2. Lassen Sie sich bitte die Variable **Anzahl_Mitarbeiter** ausgeben. Wenn nicht die Anzahl von **17** hinterlegt ist, sorgen Sie bitte dafür, dass diese Zahl ausgegeben wird. 
+
+Klicken Sie zur Zwischenausgabe auf 'Run Code'.
+
+`@hint`
+Eine Zuweisung (<-) funktioniert mit diesem Zeichen in R. Weisen Sie der Variablen den numerischen Wert 17 zu.
+
+`@sample_code`
+```{r}
+#1.numerische Variable?
+is.numeric(Anzahl_Mitarbeiter)
+#Den Befehl class(Anzahl_Mitarbeiter) können Sie auch verwenden. Durch ihn wird direkt der Datentyp ausgegeben.
+#Ausgabe
+print(Anzahl_Mitarbeiter)
+#2.Zuweisung:
+
+```
+
+`@solution`
+```{r}
+#2.1 Ausgabe und ggf. neue Zuweisung
+print(Anzahl_Mitarbeiter)
+
+Anzahl_Mitarbeiter <- 17
+```
+
+`@sct`
+```{r}
+ex() %>% check_code(c("Anzahl_Mitarbeiter<-17", "17->Anzahl_Mitarbeiter"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output 17 ausgeben wird!")
+success_msg("Super, nun ist der richtige Wert zugewiesen worden!")
 ```
