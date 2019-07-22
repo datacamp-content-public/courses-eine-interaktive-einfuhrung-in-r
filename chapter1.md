@@ -547,3 +547,40 @@ revenue.day <- c(21600, 28000, 33600, 37600, 45990, 19800)
 average.byday <- c(21600/8, 28000/8, 33600/8, 37600/8, 45660/9, 19800/6)
 report.final <- rbind(sell.time, revenue.day, average.byday) 
 ```
+
+***
+
+```yaml
+type: NormalExercise
+key: 86cd3cbb2e
+xp: 100
+```
+
+`@instructions`
+Herr Müller bittet Sie einen Wochenreport mit dem Variablennamen report.weeksales für das Kundencenter zu erstellen.
+
+- 1. Ihre Aufgabe ist es eine Matrix aus den Vektoren **sell.time und revenue.day** zu erstellen und der Variablen vom Typ Matrix **report.weeksales** zuzuordnen.
+
+`@hint`
+Schauen Sie bitte in die Exercisebox und verwenden Sie bitte eine Funktion, um Zeilenvektoren zusammen zu führen und verweisen (<-) Sie diese auf report.weeksales.
+
+`@sample_code`
+```{r}
+# report.weeksales
+
+```
+
+`@solution`
+```{r}
+
+report.weeksales <- rbind(sell.time, revenue.day)
+```
+
+`@sct`
+```{r}
+ex() %>% check_code(c("report.weeksales <- rbind(sell.time, revenue.day)", "rbind(sell.time, revenue.day) -> report.weeksales", "report.weeksales <- cbind(sell.time) report.weeksales <- cbind(report.weeksales, revenue.day)"), fixed=TRUE, missing_msg="Da stimmt etwas bei dem Erstellen der Matrix nicht. Verwenden Sie bitte die Funktionen und Namen aus der Kontextbeschreibung!") 
+success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!")
+
+#ex() %>% check_object("report.weeksales") %>% check_equal("rbind(sell.time, revenue.day)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+#success_msg("Ja, genau!")
+```
