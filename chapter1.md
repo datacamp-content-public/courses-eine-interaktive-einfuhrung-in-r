@@ -799,7 +799,9 @@ xp: 50
 ```
 
 Ihr verdienter Badge (Abzeichen) zum erfolgreich absolvierten Kurzeinstieg in R:
-**Umfragelink: https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de** (Einfach rauskopieren - Gewinnspiel!)
+
+> Umfragelink: **https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de** 
+(einfach markieren & kopieren - Gewinnspiel!)
 
 ![Badge](https://assets.datacamp.com/production/repositories/5035/datasets/0de9978260d4921d74a741154600f68a99399038/Badge_Link4.jpg)
 
