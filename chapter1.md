@@ -61,3 +61,33 @@ print("Start!")
 ex() %>% check_output("Start!", fixed=TRUE, missing_msg= "So ist das nicht ganz richtig. Beachten Sie Fehler im Code und auch mögliche Tippfehler. R ist eine case sensitive Programmiersprache!")
 success_msg("Ihr erstes Programm ist vollendet - Gut gemacht! Nun geht es richtig los!")
 ```
+
+---
+
+## Rechnen mit R
+
+```yaml
+type: TabExercise
+key: a06101a9c2
+xp: 100
+```
+
+R kann in seiner Basisfunktion als Rechner verwendet werden. Beachten Sie folgende arithmetische Rechenoperatoren:	 
+
+Nützliche Operatoren:
+
+```
+ Addition: + 
+ Subtraktion: - 
+ Multiplikation: *
+ Division: / 
+ Potenzierung: ^
+ Modulo: %%
+```
+
+ Wichtig: Der 'Kommaseperator' ist in R der Punkt . und nicht das Komma ,!
+
+`@pre_exercise_code`
+```{r}
+
+```
