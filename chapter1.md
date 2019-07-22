@@ -231,3 +231,26 @@ ex() %>% check_object("y") %>% check_equal(9052083)
 ex() %>% check_output("FALSE", fixed=TRUE, missing_msg= "Da haben Sie etwas falsch verglichen bei Aufgabe 2 oder die Aussage von Herrn Müller nicht konkret überprüft!")
 success_msg("Ja, genau. Es sieht so aus als hätten Sie die Variablenzuweisung verstanden und Herr Müller lag mit seiner Prognose falsch. Kommen wir zum nächsten Inhaltsblock, den Datentypen (2/6 abgeschlossen)")
 ```
+
+---
+
+## Datentypen in R
+
+```yaml
+type: TabExercise
+key: 7196732eac
+xp: 100
+```
+
+R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß- und Kleinschreibung. Einige der grundlegendsten Datentypen sind:
+
+![Datentypen](https://assets.datacamp.com/production/repositories/5035/datasets/191a79dc42ee4882a386eb662bea0623f92ba0bb/Basisdatentypen_%C3%9Cbersicht_final.PNG.png)
+
+**Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
+
+Von der Tochtergesellschaft hat Ihr Chef Herr Müller einen Datensatz der Mitarbeiter angefordert, um einen Überblick über die hinzugewonnen Mitarbeiter und deren Personaldaten zu bekommen. Er sagt Ihnen, dass die Mitarbeiter dort noch nicht vertraut mit dem kürzlich eingeführten ERP-System seien und Fehler bei den Datentypen, die im Zuge der Datenintegration wahrscheinlich passiert sind, schon aufgefallen seien. Deswegen sollen Sie sich nun mit den Personaldaten und den Datentypen beschäftigen.
+
+`@pre_exercise_code`
+```{r}
+Anzahl_Mitarbeiter <- "Fabian Jung"
+```
