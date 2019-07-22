@@ -27,6 +27,7 @@ Ihr Chef Herr Müller ist mit der Akquisition sehr beschäftigt und hat für Sie
 	- Dafür schreiben Sie bitte: **print("Start!")** in das Skript und drücken bitte auf 'Submit Answer'.
     
 
+Allgemeine Info:
 **#** Mit diesem Zeichen werden Kommentare gekennzeichnet.
 
 **script.R** ist ihre Kommandozeile mit der Sie Ihre Befehle und Ihren Code in der Programmiersprache R eingeben, die in der Console darunter ausgegeben werden. Mithilfe des Buttons **Run Code** kompilieren Sie nur den Code; mit **Submit Answer** führen Sie ihn aus.
