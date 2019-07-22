@@ -691,7 +691,7 @@ Neukundendaten <- read.csv2("https://assets.datacamp.com/production/repositories
 ```yaml
 type: NormalExercise
 key: 2bc9882383
-xp: 100
+xp: 50
 ```
 
 `@instructions`
@@ -718,4 +718,35 @@ nrow(Neukundendaten)
 ```{r}
 ex() %>% check_output(98, fixed=TRUE, missing_msg="So ist das nicht richtig - vielleicht haben Sie auch nur eine Ausgabefunktion vergessen. Ihr Ziel ist es, dass die Anzahl der Kunden als Ausgabe in der Konsole erscheint")
 success_msg("Hervorragend - so einfach kommt man zu einem Ergebnis!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 1ad5a2d903
+xp: 50
+```
+
+`@instructions`
+Herr Müller möchte nun weitere Analysen bzgl. der Daten des Kundencenters analysieren lassen. Dazu sollen Sie sich einen Überblick über den Datensatz verschaffen und ihm berichten, ob Sie auf den ersten Blick mögliche Ausreißer und Auffälligkeiten entdecken können.
+
+- 2. Verschaffen Sie sich bitte mithilfe _einer_ Funktion einen **Überblick über den Serviceumsatz:**
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
 ```
