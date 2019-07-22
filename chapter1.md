@@ -374,7 +374,7 @@ Hier haben Sie noch einmal eine Übersicht mit Beispielen.
 - Nicht richtig, da liegen Sie völlig falsch. Boolesche Werte geben als Ausgabe nur TRUE oder FALSE Werte.
 - Leider nicht richtig, es kommen Zahlen vor, jedoch nicht ausschließlich!
 - Richtig - eine Zeichenkette (character) eignet sich hier als Datentyp, da sowohl Zahlen als auch Buchstaben vorkommen und bei Zeichenketten/Strings eine Zuordnung möglich ist. Sie haben schon einiges erledigt - die Hälfte haben Sie geschafft **(3/6 abgeschlossen)!** Weiter geht es nun mit **Vektoren!**
-- Leider nicht richtig, überlegen Sie noch einmal! Nein es ist keine Kategorie. Korridore z.B. B könnten mit dem Datentyp fact bezeichnet werden.
+- Leider nicht richtig, überlegen Sie noch einmal! Nein es ist keine Kategorie. Korridore z.B. C könnten mit dem Datentyp fact bezeichnet werden.
 
 ---
 
