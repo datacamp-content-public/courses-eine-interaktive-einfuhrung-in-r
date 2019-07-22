@@ -798,14 +798,14 @@ key: 4e40ef561c
 xp: 50
 ```
 
-Ihr verdienter Badge (Abzeichen) zum erfolgreich absolvierten Kurzeinstieg in R :):
-**https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de**
+Ihr verdienter Badge (Abzeichen) zum erfolgreich absolvierten Kurzeinstieg in R:
+**Umfragelink: https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de** (Einfach rauskopieren - Gewinnspiel!)
 
 ![Badge](https://assets.datacamp.com/production/repositories/5035/datasets/0de9978260d4921d74a741154600f68a99399038/Badge_Link4.jpg)
 
 Herzlichen Dank für Ihre Teilnahme! 
 
-Ich hoffe, Sie hatten ein gutes Lernerlebnis und Sie konnten etwas für sich mitnehmen. Bitte nehmen Sie an der **folgenden Umfrage teil (!!!)**, die Hauptbestandteil meiner Masterarbeit ist und **nur** auf **diese Daten** habe ich Zugriff und auch nur diese fließen in die Auswertung ein 
+Ich hoffe, Sie hatten ein gutes Lernerlebnis und Sie konnten etwas für sich mitnehmen. Bitte nehmen Sie an der **folgenden Umfrage teil (!!!)**, die Hauptbestandteil meiner Masterarbeit ist und **nur** auf **diese Daten** habe ich Zugriff und auch nur diese fließen in die Auswertung ein. Diese wird knapp 10 Minuten dauern und dort können Sie an dem Gewinnspiel teilnehmen!
 
 **https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de**
 
