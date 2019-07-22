@@ -790,7 +790,7 @@ Schauen Sie sich die summary() des Serviceumsatzes an und beachten Sie bitte mö
 
 ---
 
-## Feierabend - Glückwunsch!
+## Feierabend - Glückwunsch. Umfrageteilnahme!!
 
 ```yaml
 type: PureMultipleChoiceExercise
@@ -805,7 +805,7 @@ Ihr verdienter Badge (Abzeichen) zum erfolgreich absolvierten Kurzeinstieg in R 
 
 Herzlichen Dank für Ihre Teilnahme! 
 
-Ich hoffe, Sie hatten ein gutes Lernerlebnis und Sie konnten etwas für sich mitnehmen. Bitte nehmen Sie an der **folgenden Umfrage teil (!!!)**, die Hauptbestandteil meiner Masterarbeit ist und **nur** auf diese Daten habe ich Zugriff und auch nur diese fließen in die Auswertung ein. 
+Ich hoffe, Sie hatten ein gutes Lernerlebnis und Sie konnten etwas für sich mitnehmen. Bitte nehmen Sie an der **folgenden Umfrage teil (!!!)**, die Hauptbestandteil meiner Masterarbeit ist und **nur** auf diese Daten ich Zugriff habe. 
 
 **https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de**
 
