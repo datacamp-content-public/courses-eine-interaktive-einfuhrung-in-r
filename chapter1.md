@@ -752,3 +752,36 @@ summary(Neukundendaten)
 ex() %>% check_code(c("str(Neukundendaten)", "summary(Neukundendaten)", "head(Neukundendaten)", "tail(Neukundendaten)"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau. Die Funktion str() und summary() sind sehr hilfreich und verschaffen Ihnen einen kompakten Überblick über den Datensatz. Sie haben Ihren Arbeitstag so gut wie geschafft und alle Aufgaben mit höchster Genauigkeit und hohem Engagement absolviert (5.5/6)")
 ```
+
+---
+
+## Data Frame - Neukundendatensatz (Q)
+
+```yaml
+type: PureMultipleChoiceExercise
+key: 5a25f7ca49
+xp: 50
+```
+
+![summary(Kundendaten)](https://assets.datacamp.com/production/repositories/5035/datasets/2f142f3171d44abcfb68bfef9e664e9fff08020a/summary(Kundendaten).PNG.png)
+
+Fällt Ihnen bei den **Werten des Servicesumsatzes** etwas auf? Welche Aussage bzgl. der tatsächlichen Werte der Neukundendaten stimmt **nicht**:
+- 1. Der durchschnittliche Serviceumsatz des ersten Halbjahres 2019 wird in der Nähe des Medians liegen.
+- 2. Der durchschnittliche Serviceumsatz des ersten Halbjahres 2019 wird in der Nähe des Means liegen.
+- 3. Der Maximalwert des Serviceumsatzes ist unrealistisch im Vergleich zu den anderen Werten und wahrscheinlich ein Fehler in den Daten.
+- 4. Es kommen NA (fehlende Werte) vor - zur Vollständigkeit müssten diese noch nachgetragen oder durch andere statistische Methoden ersetzt werden.
+
+`@hint`
+Schauen Sie sich die summary() des Serviceumsatzes an und beachten Sie bitte mögliche Ausreißerwerte, NA (fehlende Werte), den Mean (der Durchschnitt aller Werte) und den Median (Messwert oder Lageparameter, der genau in der Mitte liegt 50% darunter, 50% darüber).
+
+`@possible_answers`
+- 1
+- [2]
+- 3
+- 4
+
+`@feedback`
+- Nein, diese Aussage trifft zu. Der Median repräsentiert in diesem Fall den durchschnittlichen Umsatz besser als der Mean, da Fehlerwerte den Mean verfälschen. 
+- Ja, die gewählte Aussage stimmt nicht. Der Mean ist durch Fehlerwerte verfälscht. **(6/6 abgeschlossen)**
+- Nein, diese Aussage ist richtig. Der Maximalwert kommt sehr unrealistisch vor, wenn man ihn mit dem Median vergleicht und auch die Quartile als Maßstab heranzieht. Es wird sich um einen Fehler in den Daten handeln. 
+- Nein, diese Aussage ist richtig. Es kommen NA Werte, die die Anzahl an fehlenden Werten repräsentiert im Datensatz vor.
