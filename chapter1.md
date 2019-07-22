@@ -329,3 +329,45 @@ Anzahl_Mitarbeiter <- 17
 ex() %>% check_code(c("Anzahl_Mitarbeiter<-17", "17->Anzahl_Mitarbeiter"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output 17 ausgeben wird!")
 success_msg("Super, nun ist der richtige Wert zugewiesen worden!")
 ```
+
+---
+
+## Datentypen (Q)
+
+```yaml
+type: PureMultipleChoiceExercise
+key: 20bea22cf1
+xp: 50
+```
+
+Sie sehen in der Personaldatenbank, dass die Büronummern der Mitarbeiter nicht einheitlich gepflegt sind. Welchen Datentyp würden Sie für die Büronummern, z.B. ```
+Air2/03.077
+``` 
+verwenden?
+
+- 1: einen booleschen Datentyp (logical).
+- 2: eine Ganz- oder Fließkommazahl (numeric).
+- 3: eine Zeichenkette (character).
+- 4: eine Kategorie (fact).
+
+_Sie können den Tipp (HINT) wählen, um eine erneute Übersicht zu bekommen._
+
+`@hint`
+Hier haben Sie noch einmal eine Übersicht mit Beispielen. 
+
+- zu 1: Boolesche Werte: TRUE, FALSE
+- zu 2: Ganzzahlen: 1; 1.5
+- zu 3: Zeichenkette: "Hallo", "09:45 Uhr"
+- zu 4: Kategorie: A
+
+`@possible_answers`
+- 1
+- 2
+- [3]
+- 4
+
+`@feedback`
+- Nicht richtig, da liegen Sie völlig falsch. Boolesche Werte geben als Ausgabe nur TRUE oder FALSE Werte.
+- Leider nicht richtig, es kommen Zahlen vor, jedoch nicht ausschließlich!
+- Richtig - eine Zeichenkette (character) eignet sich hier als Datentyp, da sowohl Zahlen als auch Buchstaben vorkommen und bei Zeichenketten/Strings eine Zuordnung möglich ist. Sie haben schon einiges erledigt - die Hälfte haben Sie geschafft **(3/6 abgeschlossen)!** Weiter geht es nun mit **Vektoren!**
+- Leider nicht richtig, überlegen Sie noch einmal! Nein es ist keine Kategorie. Korridore z.B. B könnten mit dem Datentyp fact bezeichnet werden.
