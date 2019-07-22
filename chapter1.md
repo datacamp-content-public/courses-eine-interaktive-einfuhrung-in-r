@@ -254,3 +254,36 @@ Von der Tochtergesellschaft hat Ihr Chef Herr Müller einen Datensatz der Mitarb
 ```{r}
 Anzahl_Mitarbeiter <- "Fabian Jung"
 ```
+
+***
+
+```yaml
+type: NormalExercise
+key: 9b9235a1da
+xp: 100
+```
+
+`@instructions`
+Schauen Sie sich bitte zuerst den Datentyp an.
+- 1. Die Variable **Anzahl_Mitarbeiter** müsste natürlich ein numerischer Basisdatentyp sein. Überprüfen Sie dies bitte, da dort in letzter Zeit häufig Fehler aufgetreten sind.
+
+`@hint`
+Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert (TRUE oder FALSE) ausgegeben wird! Schauen Sie in die Übersichtstabelle in der Zeile **Abfrage (Query)** nach.
+
+`@sample_code`
+```{r}
+#1.Überprüfung Datentyp Anzahl_Mitarbeiter:
+
+```
+
+`@solution`
+```{r}
+#1.Überprüfung Variable Anzahl_Mitarbeiter:
+is.numeric(Anzahl_Mitarbeiter)
+```
+
+`@sct`
+```{r}
+ex() %>% check_output(c(FALSE, "character"), fixed=TRUE, missing_msg= "Da stimmt etwas nicht. Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird! Beachten Sie weiterhin die case sensitivität von R")
+success_msg("Super, es ist keine numerische Variable hinterlegt, da muss bei der Datenintegration der Tochtergesellschaft etwas falsch zugewiesen worden sein!")
+```
