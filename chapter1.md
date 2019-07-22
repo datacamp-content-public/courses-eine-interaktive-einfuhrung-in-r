@@ -411,7 +411,7 @@ revenue.tenfridays <- c(38300, 40800, 43300, 44100, 44900, 46500, 47900, 48400, 
 ```yaml
 type: NormalExercise
 key: fcef4dd6dc
-xp: 100
+xp: 50
 ```
 
 `@instructions`
@@ -440,4 +440,36 @@ open.vec <- c(1:6)
 ```{r}
 ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5,6)", "c(1:6)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
 success_msg("Ja, genau!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 5ca45fa697
+xp: 50
+```
+
+`@instructions`
+- 2. In dem Vektor **service.time** ist die Zeit für jeden Servicetag hinterlegt. Verschaffen Sie sich bitte einen Überblick über den Vektor und wann zeitlich der längste Servicetag ist.
+
+`@hint`
+Die Funktion **str()** haben Sie in der Kontextbeschreibung gegeben.
+
+`@sample_code`
+```{r}
+#Servicezeit
+
+```
+
+`@solution`
+```{r}
+
+str(service.time)
+```
+
+`@sct`
+```{r}
+ex() %>% check_code(c("str(service.time)", "service.time", "max(service.time)"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+success_msg("Ja, genau. Die Funktion str() ist sehr hilfreich und verschafft Ihnen einen guten Überblick über einen Vektor und die darin enthaltenen Servicezeiten.")
 ```
