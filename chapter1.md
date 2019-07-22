@@ -659,3 +659,58 @@ Schauen Sie sich bitte die Tabelle und **die verschiedenen Datentypen** genau an
 - Leider nicht richtig, es kommen in dem Datensatz keine boolschen Werte vor!
 - Leider nicht richtig, dies ist in R kein Problem.
 - Leider nicht richtig, unterschiedliche Datentypen lassen sich nicht einer Matrix speichern. Überlegen Sie noch einmal!
+
+---
+
+## Data Frames
+
+```yaml
+type: TabExercise
+key: 3139e70643
+xp: 100
+```
+
+Die **letzte** Aufgabenteil für Sie: Nach den Vektoren und Martrizen, kommen wir nun zur Spezialform von Listen, den **Data Frames**. 
+Data Frames sind Listen mit Vektoren gleicher Länge, die bei der Datenanalyse in R sehr häufig Anwendung finden, da in einem Data Frame unterschiedliche Datentypen gespeichert werden können  (Grolemund 2019).
+
+Nützliche Funktionen: 
+- **nrow() bzw. ncol()**: Anzahl der Zeilen bzw. Spalten.
+- **names()**: Funktionen zum Abrufen oder Einstellen der Namen eines Objekts.
+- **colnames()**: Abrufen oder setzen der Zeilen- oder Spaltennamen eines matrixartigen Objektes.
+- **head()** | **tail()**: Liefert den ersten oder letzten Teil eines Datenobjektes.
+- **str()**: Erstellt eine kompakte Darstellung der internen Struktur.
+- **summary()**: Generische Funktion für Ergebniszusammenfassungen.
+
+`@pre_exercise_code`
+```{r}
+Neukundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/5035/datasets/1d77d5e1370affba0512be4d17291ad649d6b86a/Kundendaten4.csv")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 2bc9882383
+xp: 100
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
