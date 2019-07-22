@@ -371,3 +371,20 @@ Hier haben Sie noch einmal eine Übersicht mit Beispielen.
 - Leider nicht richtig, es kommen Zahlen vor, jedoch nicht ausschließlich!
 - Richtig - eine Zeichenkette (character) eignet sich hier als Datentyp, da sowohl Zahlen als auch Buchstaben vorkommen und bei Zeichenketten/Strings eine Zuordnung möglich ist. Sie haben schon einiges erledigt - die Hälfte haben Sie geschafft **(3/6 abgeschlossen)!** Weiter geht es nun mit **Vektoren!**
 - Leider nicht richtig, überlegen Sie noch einmal! Nein es ist keine Kategorie. Korridore z.B. B könnten mit dem Datentyp fact bezeichnet werden.
+
+---
+
+## Vektoren
+
+```yaml
+type: TabExercise
+key: 7c2138919d
+xp: 100
+```
+
+
+
+`@pre_exercise_code`
+```{r}
+
+```
