@@ -800,7 +800,7 @@ xp: 50
 
 Ihr **verdienter Badge** (Abzeichen) zum erfolgreich absolvierten Kurzeinstieg in R:
 
-> Umfragelink: **https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de** 
+> Umfragelink: **https://studien.isdl.uni-bamberg.de/index.php/783796?lang=de** 
 (einfach markieren & Link öffnen - teilnehmen - gewinnen!)
 
 ![Badge](https://assets.datacamp.com/production/repositories/5240/datasets/f837bf15fbad1570679ffe5c63d6956aa6e935cb/Badge_Link5.JPG.jpg)
@@ -809,11 +809,11 @@ Herzlichen Dank für Ihre Teilnahme!
 
 Ich hoffe, Sie hatten ein gutes Lernerlebnis und Sie konnten etwas für sich mitnehmen. Bitte nehmen Sie an der **folgenden Umfrage teil (!!!)**, die Hauptbestandteil meiner Masterarbeit ist und **nur** auf **diese Daten** habe ich Zugriff und auch nur diese fließen in die Auswertung ein. Diese wird knapp 10 Minuten dauern und dort können Sie an dem Gewinnspiel teilnehmen!
 
-**https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de**
+**https://studien.isdl.uni-bamberg.de/index.php/783796?lang=de**
 
 `@hint`
 - Nehmen Sie nun bitte an der Umfrage teil - die Hauptbestandteil meiner Masterarbeit ist: ```
-**https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de**
+**https://studien.isdl.uni-bamberg.de/index.php/783796?lang=de**
 ```****
 
 `@possible_answers`
@@ -822,6 +822,6 @@ Ich hoffe, Sie hatten ein gutes Lernerlebnis und Sie konnten etwas für sich mit
 - [3]
 
 `@feedback`
-- https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de
-- https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de
-- https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de
+- https://studien.isdl.uni-bamberg.de/index.php/783796?lang=de
+- https://studien.isdl.uni-bamberg.de/index.php/783796?lang=de
+- https://studien.isdl.uni-bamberg.de/index.php/783796?lang=de
