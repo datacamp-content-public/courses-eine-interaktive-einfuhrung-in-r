@@ -798,7 +798,7 @@ key: 4e40ef561c
 xp: 50
 ```
 
-Ihr verdienter Badge (Abzeichen) zum erfolgreich absolvierten Kurzeinstieg in R:
+Ihr **verdienter Badge** (Abzeichen) zum erfolgreich absolvierten Kurzeinstieg in R:
 
 > Umfragelink: **https://studien.isdl.uni-bamberg.de/index.php/783796?newtest=Y&lang=de** 
 (einfach markieren & Link öffnen - teilnehmen - gewinnen!)
