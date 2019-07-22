@@ -695,22 +695,27 @@ xp: 100
 ```
 
 `@instructions`
+Die Neukundengewinnung ist eines ihrer Hauptziele, die Sie mit der Akquisition erreichen möchten. Der Datensatz **Neukundendaten**, der aus der Datenbank des ERP-Systems stammt, enthält verschiedene Neukundeninformationen, die einen Service- bzw. Support im Quartal Q1 & Q2 2019 in Anspruch genommen haben. Im Datensatz sind alle Neukunden vermerkt. Er wurde eingelesen und der Variablen **Neukundendaten** zugewiesen. 
 
+1. **Wie viele Kunden** sind im Neukundendatensatz aufgelistet, wenn Sie annehmen, dass es keine doppelten Kunden in der Tabelle gibt?
 
 `@hint`
-
+In jeder Zeile ist ein Neukunde gelistet. Lassen Sie sich einfach die Anzahl der Zeilen ausgeben.
 
 `@sample_code`
 ```{r}
+# Anzahl Neukunden
 
 ```
 
 `@solution`
 ```{r}
 
+nrow(Neukundendaten)
 ```
 
 `@sct`
 ```{r}
-
+ex() %>% check_output(98, fixed=TRUE, missing_msg="So ist das nicht richtig - vielleicht haben Sie auch nur eine Ausgabefunktion vergessen. Ihr Ziel ist es, dass die Anzahl der Kunden als Ausgabe in der Konsole erscheint")
+success_msg("Hervorragend - so einfach kommt man zu einem Ergebnis!")
 ```
