@@ -624,3 +624,38 @@ report.weeksales[1,2] <- 8
 ex() %>% check_code(c("report.weeksales[1,2] <- 8","8 -> report.weeksales[1,2]"), fixed=TRUE, missing_msg="Der Code für die Änderung des Wertes ist nicht korrekt! Haben Sie die richtige Indizierung zur Korrektur des Wertes ausgewählt?") 
 success_msg("Ja, genau - sonst wären falsche Umsatzzahlen an die Verkaufsniederlassung weitergegeben worden!")
 ```
+
+---
+
+## Matrizen (Q)
+
+```yaml
+type: PureMultipleChoiceExercise
+key: 444af5c74e
+xp: 50
+```
+
+Da Sie nun mit Matrizen arbeiten können, hat Ihnen Herr Müller einen großen Datensatz zukommen lassen - Sie sehen aber auf den ersten Blick, dass es damit Probleme zu geben scheint oder täuschen Sie sich?
+- 3. Warum ist es möglich oder nicht möglich diese Tabelle mit weiteren 3500 Zeilen in eine Matrix zu speichern?
+
+	![Beispiel](https://assets.datacamp.com/production/repositories/5035/datasets/81e60fc1e3769bcf2010d82dec9b050ab3c87ca3/Data_frame_bsp..PNG)
+
+1. weil der Datensatz unterschiedliche Datentypen nämlich Zeichenketten (character) und numerische Werte (numeric) enthält.
+2. weil der Datensatz unterschiedliche Datentypen nämlich numerische Werte und boolesche Werte enthält.
+3. weil der Datensatz zu groß ist und deswegen nicht geladen werden kann.
+4. er lässt sich ohne weitere Bearbeitung in eine Matrix speichern, da es keine Probleme geben wird.
+
+`@hint`
+Schauen Sie sich bitte die Tabelle und **die verschiedenen Datentypen** genau an.
+
+`@possible_answers`
+- [1]
+- 2
+- 3
+- 4
+
+`@feedback`
+- Richtig - in Matrizen können nur gleiche Datentypen gespeichert werden. In Data Frames können Elemente unterschiedlichen Typs gleicher Zeilenlänge gespeichert werden. Innerhalb der Spalten müssen aber die Datentypen gleich sein! --fast fertig, auf geht es zur letzten Einheit! **(5/6 Einheiten abgeschlossen)**
+- Leider nicht richtig, es kommen in dem Datensatz keine boolschen Werte vor!
+- Leider nicht richtig, dies ist in R kein Problem.
+- Leider nicht richtig, unterschiedliche Datentypen lassen sich nicht einer Matrix speichern. Überlegen Sie noch einmal!
