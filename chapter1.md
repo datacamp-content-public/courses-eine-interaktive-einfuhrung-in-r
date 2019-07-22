@@ -168,3 +168,66 @@ Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verw
 ex() %>% check_output(9052083, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - haben Sie jeweils das monatliche Umsatzwachstum für das Quartal berechnet?")
 success_msg("Richtig - die Zinsen wachsen exponentiell an! Und nun zum nächsten Inhaltsblock - den Variablen! (1/6 abgeschlossen)")
 ```
+
+---
+
+## Variablen
+
+```yaml
+type: NormalExercise
+key: b4a9e5c4e3
+xp: 100
+```
+
+Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen. Eine Variable ermöglicht es einen Wert (z.B. 8) oder eine Zeichenkette (z.B. "Funktionsbeschreibung") in R zu speichern. Später können Sie den Namen der Variablen nutzen, um einfach auf den Wert oder das Objekt zuzugreifen.
+
+- Beispiel: So können Sie der Variable my_var den Wert 8 zuweisen: ```
+my_var <- 8
+```
+
+![Variablen vergleichen](https://assets.datacamp.com/production/repositories/5035/datasets/31809ce821fec1a9a0931f929b8f83aa4bfb34a0/Variablen%20vergleichen.PNG)
+
+`@instructions`
+Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr 2019 sich zu entwickeln scheint, wie Herr Müller vermutet, da die Kunden mit dem Kauf der Paketdrohnen zögern und ein Forderungsausfall sich in Q1 2019 auch negativ auf den Umsatz auswirkt?
+
+1. Um besser die Werte vergleichen zu können, ordnen Sie bitte die Quartalszahlen aus **2019 Q1: 8480000** und **Q2: 9052083** den Variablen **x** und **y** zu.
+
+2. In der Variable **z** wurden die Quartalszahlen aus **Q3 & Q4 2018** bereits hinterlegt und zugewiesen. Überprüfen Sie die Vermutung von Herrn Müller und lassen Sie sich bzgl. der Aussage einen booleschen Wert (TRUE oder FALSE) ausgeben.
+
+`@hint`
+Schauen Sie bitte in die Exercisebox. Hier ist die Zuweisung anhand eines Beispiels verdeutlicht. Lesen Sie bitte genau die Instruktionen. Der Wert für Variable z wurde bereits im System hinterlegt und der Variable z zugewiesen. 
+
+Entwickeln Sie den Code so, dass ein boolescher Wert (TRUE oder FALSE) ausgegeben wird.
+
+`@pre_exercise_code`
+```{r}
+z <- 15550000
+```
+
+`@sample_code`
+```{r}
+# 1.Q1:
+
+# Q2
+
+# 2.Vergleich der halbjährlichen Umsätze aus 2018 und 2019: 
+
+```
+
+`@solution`
+```{r}
+# Q1
+x <- 8480000
+# Q2
+y <- 9052083
+# 2.Vergleich der Umsätze
+z > (x+y)
+```
+
+`@sct`
+```{r}
+ex() %>% check_object("x") %>% check_equal(8480000)
+ex() %>% check_object("y") %>% check_equal(9052083)
+ex() %>% check_output("FALSE", fixed=TRUE, missing_msg= "Da haben Sie etwas falsch verglichen bei Aufgabe 2 oder die Aussage von Herrn Müller nicht konkret überprüft!")
+success_msg("Ja, genau. Es sieht so aus als hätten Sie die Variablenzuweisung verstanden und Herr Müller lag mit seiner Prognose falsch. Kommen wir zum nächsten Inhaltsblock, den Datentypen (2/6 abgeschlossen)")
+```
