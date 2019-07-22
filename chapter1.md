@@ -790,7 +790,7 @@ Schauen Sie sich die summary() des Serviceumsatzes an und beachten Sie bitte mö
 
 ---
 
-## Feierabend - Glückwunsch. Umfrageteilnahme!!
+## Feierabend - Glückwunsch -> Umfrageteilnahme!!
 
 ```yaml
 type: PureMultipleChoiceExercise
