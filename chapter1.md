@@ -672,7 +672,7 @@ key: 3139e70643
 xp: 100
 ```
 
-Die **letzte** Aufgabenteil für Sie: Nach den Vektoren und Martrizen, kommen wir nun zur Spezialform von Listen, den **Data Frames**. 
+Der **letzte** Aufgabenteil für Sie: Nach den Vektoren und Martrizen, kommen wir nun zur Spezialform von Listen, den **Data Frames**. 
 Data Frames sind Listen mit Vektoren gleicher Länge, die bei der Datenanalyse in R sehr häufig Anwendung finden, da in einem Data Frame unterschiedliche Datentypen gespeichert werden können  (Grolemund 2019).
 
 Nützliche Funktionen: 
